@@ -18,4 +18,4 @@ password = letters_rn + numbers_rn + symbols_rn
 random.shuffle(password)
 
 final_password = ''.join(password)
-print(final_password)
+print(f"Your password is: {final_password}")
